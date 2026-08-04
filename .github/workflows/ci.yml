@@ -5,6 +5,10 @@ on:
     branches:
       - demo
 
+  pull_request:
+    branches:
+      - demo
+
 jobs:
   ruff:
     runs-on: ubuntu-latest
